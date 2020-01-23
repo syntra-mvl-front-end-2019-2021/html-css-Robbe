@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li>item 1</li>
+    </ul>
+    <ol>
+        <li>item2</li>
+    </ol>
+    <form method="GET" action="#" id="form-1">
+        <fieldset>
+        <label for="first-name">Voornaam</label>
+        <input name="first-name" id="first-name" type="text" required>
+        <label>
+            Email
+            <input type="email" name="email" id="" required>
+        </label>
+        <label>
+            Leeftijd:
+            <input type="date" name="Leeftijd" value="2020-12-20" required>
+        </label>
+        <label>
+            huisdier:
+            <input type="checkbox" name="huisdier" value="has-animal" checked>
+        </label>
+        <label >
+            Man
+            <input type="radio" name="gender" value="man" checked>
+        </label>
+        <label >
+            Vrouw
+            <input type="radio" name="gender" value="woman">
+        </label>
+        <label>
+            kinderen
+            <select name="children">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </label>
+        <button type="button">test</button>
+        <button type="submit"> submit</button>
+    </fieldset>
+    </form>
+    <button type="submit" for="form-1">submit</button>
+</body>
+</html>
