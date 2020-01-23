@@ -1,3 +1,42 @@
 #form-1 label {
     display: block;
 }
+
+p.class-1{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p.class-2 {
+    font-family: serif;
+    font-size: 1 rem;
+    font-weight: 400;
+}
+
+p.class-3 {
+    font-family: italic;
+    font-size: 1 rem;
+    font-weight: bold;
+    padding: 5px;
+    color: red;
+    background-color: green;
+}
+
+p.class-4{
+    background-color: lightgray;
+    width: 400px;
+    border-bottom: 2px green solid;
+}
+
+p.class-5{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+span.green {
+    color: green;
+    display: inline-block;
+}
+
