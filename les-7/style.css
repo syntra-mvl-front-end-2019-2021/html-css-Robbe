@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    grid-template-columns: [first] 150px [second] 150px [third] 150px;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.grid-item{
+    height: 100px;
+    width: 100px;
+    background-color: goldenrod;
+}
